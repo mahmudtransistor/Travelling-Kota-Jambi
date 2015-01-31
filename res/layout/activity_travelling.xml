@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbdbd"
+    android:orientation="vertical"
+    tools:context="id.mahmud.travellingjambi.TravellingActivity" >
+
+    <TextView
+        android:id="@+id/txtnamatravelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="Daftar Lokasi Perjalanan di Jambi"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list_travelling"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="6"
+        android:background="#a7ffeb"
+        android:dividerHeight="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtketerangantravelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9e9e9e"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="Copyright © 2015 Jambi"
+        android:textColor="#000000"
+        android:typeface="sans" />
+
+</LinearLayout>

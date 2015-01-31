@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menu Utama</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="option_menu_search">Pencarian</string>
+
+    <string-array name="title">
+        <item>Home</item>
+        <item>Versi OS</item>
+        <item>About</item>
+        <item>Keluar</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/icon_home</item>
+        <item>@drawable/icon_android</item>
+        <item>@drawable/icon_about</item>
+        <item>@drawable/icon_exit</item>
+    </array>
+
+    <!-- nama nama -->
+    <string-array name="nama_menu">
+        <item>Travelling</item>
+        <item>Jambi Maps</item>
+        <item>Sejarah Jambi</item>
+        <item>Keluar</item>
+    </string-array>
+    <!-- Poto -->
+    <array name="Poto">
+        <item>@drawable/icon_travelling</item>
+        <item>@drawable/icon_map</item>
+        <item>@drawable/icon_sejarah</item>
+        <item>@drawable/exit</item>
+    </array>
+
+    <!-- Travelling -->
+    <string-array name="nama_traveling">
+        <item>HOTEL</item>
+        <item>RESTORAN</item>
+        <item>MASJID</item>
+        <item>SPBU</item>
+        <item>CAFE</item>
+        <item>WISATA</item>
+    </string-array>
+
+    <array name="poto_travelling">
+        <item>@drawable/hotel</item>
+        <item>@drawable/restoran</item>
+        <item>@drawable/masjid</item>
+        <item>@drawable/spbu</item>
+        <item>@drawable/cafe</item>
+        <item>@drawable/wisata</item>
+    </array>
+
+    <string-array name="keterangan_travelling">
+        <item>Abadi Suite, Aston Jambi, Novita Hotel, Grand Hotel, Ratu Hotel DLL</item>
+        <item>Aneka Rasa Restoran, Pagi Sore Restoran, Restoran Sederhana, Murni Area, Pujasera DLL</item>
+        <item>Masjid Agung Al-Falah, Masjid Al-Azhar, Masjid AL-IKHLAS,Masjid AL-MUTTAQIN,Masjid Ar-Raudah,</item>
+        <item>SPBU Simpang Rimbo, SPBU Kebun Jeruk, SPBU Persijam, SPBU Talang Bakung DLL</item>
+        <item>cwie mie malang, Kopi Oey, DW cafe DLL </item>
+        <item>Candi Muaro Jambi,Tanggo Rajo,Monas Jambi,Taman Rimba Jambi,Danau Sipin,Taman Anggrek Sri Soedewi,Museum Negeri Jambi DLL</item>
+    </string-array>
+
+    <string name="title_activity_sejarahjambi">Sejarah Jambi</string>
+    <string name="title_activity_travelling">Travelling</string>
+    <string name="title_activity_hotel">Lokasi yang di Pilih</string>
+    <string name="title_activity_restoran">Lokasi Restoran</string>
+    <string name="title_activity_flash_screen">Travelling</string>
+    <string name="title_activity_maps_jambi">Maps Jambi</string>
+    <string name="title_activity_profil">Nama Kelompok</string>
+    <string name="title_activity_home">Versi OS</string>
+    <string name="title_activity_masjid">MasjidActivity</string>
+    <string name="title_activity_spbu">SpbuActivity</string>
+    <string name="title_activity_cafe">CafeActivity</string>
+    <string name="title_activity_wisata">WisataActivity</string>
+
+</resources>

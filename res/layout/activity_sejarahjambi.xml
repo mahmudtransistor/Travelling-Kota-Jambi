@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbdbd"
+    android:orientation="vertical"
+    tools:context="id.mahmud.travellingjambi.Sejarahjambi" >
+
+    <TextView
+        android:id="@+id/txtmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:text="Sejarah Jambi"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="6"
+        android:background="#fafafa" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/penelhitam"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                 <ImageView
+                     android:id="@+id/imagemenu"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:adjustViewBounds="true"
+                     android:paddingBottom="8dp"
+                     android:paddingLeft="8dp"
+                     android:paddingRight="8dp"
+                     android:paddingTop="8dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/gambar_sejarah" />
+                 
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:text="Provinsi Jambi dibentuk tanggal 2 Juli 1958 bersamaan waktunya \n
+dengan pembentukan Provinsi Sumatera Barat dan Provinsi Riau.\n
+Sebelumnya Jambi merupakan salah satu daerah keresidenan di wilayah Provinsi Sumatera Tengah.\n
+Sementara di awal kemerdekaan, hanya ada satu provinsi di Sumatera,\n
+yaitu, provinsi Sumatera dan jambi adalah salah satu keresidenan di provinsi yang sangat luas itu.\n\n
+
+Pada akhir abad ke 19 di wilayah Jambi terdapat kerajaan atau kesultanan Jambi.\n
+Tahun 1855, Kesultanan Jambi diperintah oleh Sultan Thaha Saifuddin.\n
+Pada saat Belanda mulai menduduki Kesultanan Jambi, tepatnya tahun 1858,\n
+Sultan Thaha menyingkir dari keraton dan melakukan perang gerilya.\n
+Dia gugur dalam perang melawan penjajah tahun 1904.\n
+
+Setelah gugurnya Sultan Thaha, Belanda menguasai wilayah Jambi sepenuhnya.\n
+Tahun 1906, Belanda mulai membentuk administrasi pemerintahan di Jambi.\n
+Hal ini berarti bahwa Jambi yang sebelumnya ditangani oleh Keresidenan Palembang,\n
+menjadi keresidenan sendiri. Sebagai residen Jambi yang pertama adalah O.L. Helfrich,\n
+sebelumnya dia menjabat sebagai Asisten Residen Palembang.\n
+
+Susunan pemerintahan pada zaman Belanda masih memperhatikan susunan adat seperti di zaman kesultanan,\n
+namun disertai dengan beberapa penyesuaian, disesuaikan dengan politik jajahannya.\n
+Singkatnya, pemerintahan Jambi di era penjajahan Belanda berturut-turut dari level\n
+teratas sampai terbawah adalah Residen-Kontrolir-Demang-Asisten Demang-Kepala Adat\n
+Pasirah-Penghulu/kepala dusun-Rakyat.\n\n
+
+Rakyat Jambi tidak sepenuhnya mengakui pemerintahan kolonial Belanda.\n
+Hal ini terbukti dengan adanya perlawanan,\n
+yaitu, perang Sarikat Abang yang terjadi pada tahun 1916.\n
+Perlawanan ini dapat dihentikan Belanda dan tokoh-tokoh perlawanannya\n
+disidangkan dalam suatu pengadilan yang dinamakan Pengadilan Rapat Besar Istimewa.\n
+Tokoh-tokoh perlawanan tersebut kemudian dibuang ke Digul, Ternate, dan Nusa Kambangan.\n\n
+
+Setelah peristiwa pembangkangan tersebut,\n
+Belanda semakin memperketat ruang gerak rakyat dengan mengadakan pembatasan-pembatasan\n
+berbagai kegiatan perkumpulan dan organisasi politik.\n
+Akibatnya, semua perkumpulan dan organiasi politik vakum dan akhirnya mati.\n
+Jambi, akhirnya menjadi daerah yang kosong dari organisasi politik.\n\n
+
+Larangan Belanda tersebut ternyata tidak hanya pada organisasi politik,\n
+melainkan melebar pada dunia pendidikan. Belanda melarang rakyat Jambi untuk bersekolah atau mendirikan sekolah.\n
+Setelah beberapa tokoh memperjuangkan pendirian sekolah,\n
+seperti yang dilakukan oleh H. Nawawi, H.M. Chatib A.T. Hanafiah, akhirnya ada juga beberapa sekolah yang berdiri,\n
+namun dengan pengawasan yang sangat ketat.\n
+
+Karena ada pengaruh dari Jawa, tahun 1939 lahir beberapa partai politik di Jambi.\n
+Adanya partai politik ini membuka mata masyarakat Jambi bahwa mereka harus berjuang mencapai kemerdekaan.\n
+Kesadaran ini juga muncul karena, melalui partai-partai ini,\n
+mereka mengetahui bahwa di Eropa sedang terjadi peperangan sehingga terdapat ruang bagi rakyat di negeri jajahan untuk bangkit.\n\n
+
+Harapan untuk merdeka dan hidup sejahtera semakin besar ketika Jepang mendarat di Jambi.\n
+Rakyat tertipu dengan propaganda Sang Saudara Tua yang mengatakan bahwa mereka akan memberi kemakmuran.\n
+Namun janji Jepang tersebut ternyata tidak dilakukan. Alih-alih mensejahterakan rakyat Jambi,\n
+Jepang menerapkan pemerintahan yang kejam. Bahan pangan yang dimiliki rakyat dirampas,\n
+dan sebagian rakyat dijadikan romusha. Kegiatan politik rakyat dilarang,\n
+bahkan dalam kegiatan sehari-hari pun selalu dimata-matai oleh tentara Jepang.\n\n
+
+Keadaan ini berlangsung sampai Indonesia merdeka, tanggal 17 Agustus 1945.\n
+Di awal kemerdekaan, Jambi yang waktu itu berbentuk keresidenan, tidak pernah tenang.\n
+Kondisi ini disebabkan oleh adanya berbagai rongrongan keamanan,\n
+yaitu, dari Belanda yang berkeinginan menjajah kembali. Tanggal 28 Desember 1948,\n
+Belanda membombardir Jambi. Residen dan staf pemerintahan menyingkir ke dusun Rantaumajo.\n
+Sementara itu para pejuang melakukan perlawanan sengit terhadap Belanda. Dalam peperangan itu,\n
+banyak pejuang Jambi yang gugur dan ditawan. Peperangan itu berakhir dengan dicapainya kesepakatan dalam Konferensi Meja Bundar (KMB).\n
+Belanda kemudian membentuk Republik Indonesia Serikat (RIS) yang berisikan banyak negara bagian.\n
+Namun bentuk negara serikat ini tidak lama karena rakyat Indonesia tidak setuju dengan bentuk negara serikat dan berkeinginan untuk kembali kebentuk kesatuan.\n
+Akhirnya pada tanggal 17 Agustus 1950, Republik Indonesia kembali berdiri.\n
+Setelah Jambi menjadi provinsi, terpisah dari provinsi lama,\n
+yaitu, provinsi Sumatera Tengah, rakyat dan pemerintah Jambi mulai menata administrasi pemerintahannya.\n
+Gubernur pertama Jambi dijabat oleh M. Juuf Singedikane.\n
+Namun Jambi tidak bias langsung melakukan pembangunan karena adanya beberapa pemberontakan,\n
+yaitu, PRRI dan PKI. Baru setelah G30S/PKI dapat ditumpas, Jambi mulai dapat melakukan pembangunan.\n
+Kemajuan pembangunan mulai terlihat pada masa pemerintahan gubernur RM Noer Atmadibrata yang memerintah dari tahun 1968 sampai 1974.\n
+Selanjutnya Jambi terus melakukan pembangunan seiring dengan program pembangunan yang dicanangkan pemerintah pusat.\n
+Lancarnya pembangunan ini terkait erat dengan terjaminnya keamanan sehingga membuat iklim dunia usaha semakin kondusif.\n\n
+
+  "
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+               
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+   <TextView
+       android:id="@+id/txtketerangantravelling"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#9e9e9e"
+       android:gravity="center"
+       android:paddingBottom="5dp"
+       android:paddingLeft="5dp"
+       android:paddingRight="5dp"
+       android:paddingTop="5dp"
+       android:text="Copyright © 2015 Jambi"
+       android:textColor="#000000"
+       android:typeface="sans" >
+</TextView>
+
+</LinearLayout>

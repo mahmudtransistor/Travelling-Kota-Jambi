@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.mahmud.travellingjambi.TravellingActivity" >
+
+   <item 
+        android:id="@+id/option_menu_search"
+        android:title="@string/option_menu_search"
+        android:icon="@drawable/icon_serach"
+       android:showAsAction="ifRoom|collapseActionView"
+	    android:actionViewClass="android.widget.SearchView"
+        />
+    
+
+</menu>

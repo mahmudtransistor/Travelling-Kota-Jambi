@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imagetravelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtnamatravelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imagetravelling"
+        android:layout_alignTop="@+id/imagetravelling"
+        android:layout_toRightOf="@+id/imagetravelling"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="Nama Travelling"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txtketerangantravelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtnamatravelling"
+        android:layout_below="@+id/txtnamatravelling"
+        android:paddingBottom="8dp"
+        android:text="Keterangan"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+</RelativeLayout>
